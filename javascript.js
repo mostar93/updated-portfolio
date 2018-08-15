@@ -1,4 +1,7 @@
-// $(".btn").on("click", function(){
-//     alert("it works");
-//     $(".collapse").css("class", "collapse");
-// })
+$(".btn").on("click", function(){
+  
+    $("#box1").attr("class", "collapse");
+    $("#box2").attr("class", "collapse");
+    $("#box3").attr("class", "collapse");
+    $("#box4").attr("class", "collapse");
+})

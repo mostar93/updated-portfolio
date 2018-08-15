@@ -30,10 +30,11 @@ body {
 
 .portfoliopic {
     margin: 25px;
+    border:  1px solid 10px;
 }
 
 img {
-    border: rgb(37, 125, 224) 1px solid 2px;
+    border: rgb(37, 125, 224) solid 3px;
 }
 
 .label {

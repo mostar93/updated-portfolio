@@ -1,16 +1,20 @@
 header {
     border-bottom: solid rgb(37, 125, 224) 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 
 }
 
 h1 {
-    padding: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     letter-spacing: 5px;
+    margin: 0;
 }
 
 body {
     background: white;
+
 }
 
 .container {
@@ -20,6 +24,7 @@ body {
 }
 
 .btn {
+    text-decoration: none;
     clear: both;
     padding: 15px;
     margin: 2%;
@@ -35,9 +40,14 @@ body {
 
 img {
     border: rgb(37, 125, 224) solid 3px;
+    border-radius: 15px;
 }
 
 .label {
     bottom: 1px;
     color: black;
+}
+
+.card {
+    border-radius: 15px;
 }
